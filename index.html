@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carbon Emissions Reduction Solutions - GreenEco Solutions</title>
+</head>
+<body>
+    <header>
+        <h1>Carbon Emissions Reduction Solutions</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="tab-link" data-tab="home">Home</a></li>
+            <li><a href="#" class="tab-link" data-tab="consultant">Book a Consultant</a></li>
+            <li><a href="#" class="tab-link" data-tab="calculator">Carbon Calculator</a></li>
+            <li><a href="#" class="tab-link" data-tab="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <section id="home" class="tab-content">
+        <h2>Executive Summary</h2>
+        <p>In response to the growing global concern about climate change and its impact on the environment, we propose establishing a company dedicated to providing comprehensive carbon emissions reduction solutions. Our company, "GreenEco Solutions," aims to address the urgent need for businesses and industries to adopt sustainable practices and reduce their carbon footprints. Through a combination of innovative technologies, expert consultancy, and customized sustainability strategies, GreenEco Solutions will help clients significantly cut down on their carbon emissions while promoting a more sustainable future.</p>
+
+        <h2>Introduction</h2>
+        <p>The issue of carbon emissions and its contribution to climate change is a pressing concern for governments, organizations, and individuals worldwide. Many businesses are now taking steps to align themselves with sustainability goals and reduce their environmental impact. However, they often face challenges in identifying the most effective strategies and technologies to achieve meaningful reductions in carbon emissions.</p>
+ 
+        <h2>Objectives</h2>
+        <p>The primary objectives of GreenEco Solutions are as follows:</p>
+        <ul>
+            <li>Carbon Footprint Reduction: Provide businesses with tailored strategies to reduce their carbon emissions, targeting a reduction of at least 30% within the first two years of partnership.</li>
+            <li>Renewable Energy Adoption: Encourage the transition to renewable energy sources by offering consultancy services and facilitating the integration of solar, wind, and other renewable technologies into clients' operations.</li>
+            <li>Sustainable Practices: Promote sustainable practices across various industries, leading to more eco-friendly supply chains, waste reduction, and responsible resource management.</li>
+            <li>Innovative Technologies: Explore and implement cutting-edge carbon capture and sequestration technologies to help clients achieve net-zero carbon emissions.</li>
+        </ul>
+      </section>
+
+        <section id="consultant" class="tab-content">
+            <h2>Book a Consultant</h2>
+            <form id="consultant-form">
+                <label for="consultant-name">Name:</label>
+                <input type="text" id="consultant-name">
+                <label for="consultant-email">Email:</label>
+                <input type="text" id="consultant-name">
+                <button type="submit">Book</button>
+            </form>
+        </section>
+
+        <section id="calculator" class="tab-content">
+
+                <h2>Home Energy</h2>
+                <p>Calculate your carbon footprint from home energy consumption by entering the amount of your monthly bill of each type of energy:</p>
+                <form id="home-energy-form">
+                  <label for="electricity">Electricity:</label>
+                  <input type="number" id="electricity" step="1" >
+                  
+                  <label for="percent-not-solar">Percent not Solar powered:</label>
+                  <input type="number" id="percent-not-solar" step="1">
+                  
+                  <label for="natural-gas">Natural Gas:</label>
+                  <input type="number" id="natural-gas" step="1">
+                  
+                  <label for="fuel-oil">Fuel Oil:</label>
+                  <input type="number" id="fuel-oil" step="1">
+                  
+                  <label for="propane">Propane:</label>
+                  <input type="number" id="propane" step="1">
+                  
+                  <button type="submit">Calculate</button>
+                </form>
+                <p>Your home energy carbon footprint is: <span id="home-energy-result"> lbs</span></p>
+ 
+                <h2>Transportation Energy</h2>
+                <p>Calculate your carbon footprint from car and transportation consumption:</p>
+                <form id="transportation-form">
+                  <label for="annual-miles-driven-gas">Annual miles driven using gas:</label>
+                  <input type="number" id="annual-miles-driven-gas" step="1"> 
+
+                  <label for="annual-miles-driven-diesel">Annual miles driven using diesel:</label>
+                  <input type="number" id="annual-miles-driven-diesel" step="1">
+                  
+                  <label for="mpg-rate (average between all cars)">Miles per gallon (MPG) rate:</label>
+                  <input type="number" id="mpg-rate" step="1">
+                
+                  <label for="bus-miles"> Miles riding on bus:</label>
+                  <input type="number" id="bus-miles" step="1">
+                
+                  <label for="train-miles"> Miles riding on Train:</label>
+                  <input type="number" id="train-miles" step="1">
+                
+                <button type="submit">Calculate</button>
+                </form>
+                <p>Your transportation carbon footprint is: <span id="transportation-result"> lbs</span></p>
+ 
+              <h2>Food Energy</h2>
+              <p>Calculate your carbon footprint from food consumption by entering the amount of calories of each food you consume:</p>
+              <form id="food-form">
+                <label for="meat-eggs-calories"> Meat/Fish/Eggs:</label>
+                <input type="number" id="meat-eggs-calories" step="1">
+                
+                <label for="grains-calories"> Grains/Baked Goods:</label>
+                <input type="number" id="grains-calories" step="1">
+                
+                <label for="dairy-calories"> Dairy:</label>
+                <input type="number" id="dairy-calories" step="1">
+                
+                <label for="fruits-vegetables-calories"> Fruits/Vegetables:</label>
+                <input type="number" id="fruits-vegetables-calories" step="1">
+                
+                <label for="snacks-drinks-calories"> Snacks/Drinks:</label>
+                <input type="number" id="snacks-drinks-calories" step="1">
+                
+                <button type="submit">Calculate</button>
+              </form>
+              <p>Your food carbon footprint is: <span id="food-result"> lbs</span></p>
+
+              <h2>Food Energy</h2>
+              <p>Calculate your carbon footprint from goods consumption:</p>
+              <form id="goods-form">
+                <label for="furniture">1$ Furniture:</label>
+                <input type="number" id="furniture" step="1">
+                
+                <label for="clothing">1$ Clothing:</label>
+                <input type="number" id="clothing" step="1">
+                
+                <label for="unrecycleable-paper"> Unrecycleable Paper Products:</label>
+                <input type="number" id="unrecycleable-paper" step="1">
+                
+                <label for="hygiene-cleaning"> Hygiene/Cleaning Products:</label>
+                <input type="number" id="hygiene-cleaning" step="1">
+                
+                <label for="medication"> Medication:</label>
+                <input type="number" id="medication" step="1">
+                
+                <button type="submit">Calculate</button>
+              </form>
+              <p>Your goods carbon footprint is: <span id="goods-result"> lbs</span></p>
+
+
+        </section>
+
+        <section id="contact" class="tab-content">
+            <h2>Contact Us</h2>
+            <p>Contact information and details here.</p>
+        </section>
+      </main>
+
+  
+      <script src="calc.js"></script>
+  </body>
+  </html>

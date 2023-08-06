@@ -1,0 +1,77 @@
+/* Reset default styles */
+body, h1, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #f5f5f5;
+    color: #444;
+}
+
+header {
+    background-color: #6a9e69;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #6a9e69;
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4b734b;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Specific section styles */
+section {
+    display: none;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Minimalist button style */
+button {
+    background-color: #6a9e69;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b734b;
+}
+
+/* Business proposal style */
+.business-proposal {
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* Your CSS styles here */
+
+.hidden {
+    display: none;
+}
